@@ -1,0 +1,85 @@
+.search__input{
+    display: flex !important;
+    align-items: center !important;
+    border: 1px solid rgba(156, 156, 156, 0.336) !important;
+    height: 46px !important;
+    padding: 10px 20px !important;
+    border-radius: 999px !important;
+    width: 75vw !important;
+    max-width: 585px !important;
+    margin: 0 auto !important;
+    justify-content: center !important;
+    margin-top: 27px !important;
+    
+} 
+
+.search__input:hover{
+    box-shadow: 0 0 0.5rem rgba(211, 211, 211, 1);
+}
+.search__input:visited{
+    box-shadow: 0 0 0.5rem rgba(211, 211, 211, 1);
+}
+.search__input:valid{
+    box-shadow: 0 0 0.5rem rgba(211, 211, 211, 1);
+}
+
+.search__input > input{
+    flex: 1;
+    padding-left: 10px;
+    font-size: medium;
+    border: none;
+}
+.search__input > input:focus{
+    outline-width: 0;
+}
+
+.search__inputIcon{
+    color: gray;
+    opacity: 0.8;
+    display: flex !important;
+    height: 20px !important;
+    width: 20px !important;
+    margin-left: -5px !important;
+}
+
+.search__buttons{
+    display: flex !important;
+    flex-direction: row;
+    margin: auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 1.7% !important;
+    
+}
+
+.search__buttons > button{
+    display: flex !important;
+    text-transform: inherit !important;
+    text-decoration: none !important;
+    outline: none !important;
+    border: 0 !important;
+    background: rgba(211, 211, 211, 0.15);
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    margin: 7px;
+    padding: 10px 15.4px;
+    border-radius: 3px;
+    flex-direction: row !important;
+}
+
+.search__buttons > button:hover{
+    box-shadow: 0 0 0.15rem rgba(61, 61, 61, 0.5);
+}
+
+.search__buttons > button:active{
+    outline: 2px solid rgba(107, 176, 255, 0.788) !important;
+    
+}
+
+.search__buttonsHidden{
+    display: none !important;
+
+}
+.search__buttons1{
+    display: none !important;
+}
